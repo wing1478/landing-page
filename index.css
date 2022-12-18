@@ -3,21 +3,21 @@ body{
     min-height: 100vh;
     margin: 0;
     
-    background: skyblue;
+    background: url(../landing-page/resources/9c9b74ef3f74c104388a1b4f1e09183a.png);
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .header{
- height: 72px;
+ height: 36px;
  background-color: greenyellow;
  padding: 0;
  margin: 0;
  display: flex;
  align-items: flex-start;
+ justify-content: space-around;
  margin-bottom: 20px;
- 
 
 }
 
@@ -35,24 +35,39 @@ body{
 .headline{
     width: 1000px;
     height: 300px;
-    background: pink;
+    background: skyblue;
+    border-radius: 25px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
 
 }
+
+
+
 
 .text-desc{
     width: 400px;
     height: 200px;
     background: salmon;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 
 }
 
+.text-desc button{
+    background: blueviolet;
+    display: flex;
+
+    margin-bottom: 20px;
+}
 .char{
     width: 1000px;
     height: 300px;
+    border-radius: 25px;
     background: palevioletred;
     display: flex;
     justify-content: space-evenly;
@@ -61,36 +76,70 @@ body{
 }
 
 .cia,.wave,.jam,.mc{
+    
     width: 100px;
     height: 100px;
-    background: white;
+    
 }
  
 img{
+    border: 5px solid rgb(51, 169, 243);
+    border-radius: 25px;
     width: 100px;
     height: 100px;
 }
 .qoute{
     width: 1000px;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
     background:blueviolet;
+    border-radius: 25px;
     text-align: center;
+    font-size: 50px;
 }
 
+
+.headline img{
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+    
 .call{
-    width: 700px;
-    height: 50px;
-    background: blue;
+    width: 800px;
+    height: 100px;
+    background: rgb(117, 117, 225);
+    border-radius: 25px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.sign div{
+ display: flex;
+ align-self: flex-start; 
+
+}
+
+
+button{
+    border: 4px solid slateblue;
+    width: 100px;
+    height: 25px;
+    margin: 10px;
 }
 .footer{
-    height: 72px;
-    background-color: green;
+    height: 36px;
+    background-color: greenyellow;
     padding: 0;
     margin: 0;
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 
 }
